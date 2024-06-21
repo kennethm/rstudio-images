@@ -37,8 +37,8 @@ image:
 
 
 ## Content base image
-## 	We don't need this image if we will be using the content pro image. Content pro images include posit professional drivers.
-## 	https://docs.posit.co/pro-drivers/
+#### 	We don't need this image if we will be using the content pro image. Content pro images include posit professional drivers.
+#### 	https://docs.posit.co/pro-drivers/
 image:
   dockerImage: rstudio/content-base:r4.3.3-py3.12.3-ubuntu2204
   dockerFileReference: https://raw.githubusercontent.com/rstudio/rstudio-docker-products/dev/content/base/Dockerfile.ubuntu2204
